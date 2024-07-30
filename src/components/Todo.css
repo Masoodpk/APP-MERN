@@ -16,10 +16,14 @@ padding: 20px 30px;
   .list-todo input{
     border-radius: 8px;
 border-color: blue;
+padding: 8px;
   }
   .list-todo button{
     border-radius: 10px;
     background-color: rgb(196, 0, 0);
     color: white;
     border-color: white;
+    margin-left: 1em;
+    font-size: 0.8rem;;
+    padding: 8px 20px;
   }
