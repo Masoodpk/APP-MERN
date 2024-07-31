@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import connection from "./connection";
 import router from "./router";
 const app = express();
+app.use(cors());
 dotenv.config();
 const port = process.env.URL || 3000
 app.use(express.json())
